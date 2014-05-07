@@ -1,5 +1,7 @@
 <?php
 
+/*    Note: Properties cannot be declared final, only classes and methods may be declared as final. */
+
 class ParentClass{
 
 	public function callMethod(){
