@@ -1,0 +1,6 @@
+<?php
+/* A class can inherit the methods and properties of another class by using the keyword extends in the class declaration. It is not possible to extend multiple classes; a class can only inherit from one base class. */
+
+
+
+?>
