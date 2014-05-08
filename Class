@@ -44,7 +44,20 @@ public static function myPubStatfunction(){
 
 }
 
+/* To create an instance of a class, the new keyword must be used. An object will always be created unless the object has a constructor defined that throws an exception on error. Classes should be defined before instantiation */
+
 $Objmyclass = new myclass();
 echo $Objmyclass->myfunction();
+
+echo "<br>";
+
+/* If a string containing the name of a class is used with new, a new instance of that class will be created. If the class is in a namespace, its fully qualified name must be used when doing this.  */
+
+$ClassName = "myclass";
+$Objmyclass1 = new $ClassName();
+echo $Objmyclass1->myfunction();
+
+
+
 
 ?>
