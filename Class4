@@ -1,0 +1,22 @@
+<?php
+
+class ParentClass {
+
+    public static function get_self() {
+        return new self();
+    }
+
+    public static function get_static() {
+        return new static();
+    }
+}
+
+class ChildClass extends ParentClass {
+
+}
+
+echo get_class(ChildClass::get_self());  // ParentClass
+echo get_class(ChildClass::get_static()); // ChildClass
+echo get_class(ParentClass::get_static()); // ParentClass
+
+?>
