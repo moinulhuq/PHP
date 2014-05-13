@@ -3,14 +3,14 @@
 /* spl_autoload_register() allows you to register multiple functions (or static methods from your own Autoload class) */ 
 /* PHP will put into a stack/queue and call sequentially when a "new Class" is declared. */
 
-spl_autoload_register('myAutoloader');
-
 function myAutoloader($className)
 {
     $path = '/path/to/class/';
 
     include $path.$className.'.php';
 }
+
+spl_autoload_register('myAutoloader');
 
 
 $myClass = new myclass();
