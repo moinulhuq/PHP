@@ -1,5 +1,14 @@
 <?php
- 
+
+/*
+|-- path
+|   `-- to
+|       |-- class
+|       |   `-- myclass.php
+|       |   `-- myclass.inc
+*/
+
+
 /* You can use this if all your files are located in a single directory and your application uses .php files and .inc files (Custom configuration files). */
 /* To add your directory containing all files, Use "set_include_path()" and as you require configuration files as well, you could use spl_autoload_extensions() to list the extensions .php and .inc. */
 
