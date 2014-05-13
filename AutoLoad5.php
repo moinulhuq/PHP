@@ -33,8 +33,9 @@ public static function libLoader($className)
 
 }
 
-spl_autoload_register(array('MyAutoloader', 'classLoader'));
-spl_autoload_register(array('MyAutoloader', 'libLoader'));
+spl_autoload_register(array('MyAutoloader', 'classLoader')); // (or) spl_autoload_register('MyAutoloader::ClassLoader');
+spl_autoload_register(array('MyAutoloader', 'libLoader'));  // (or) spl_autoload_register('MyAutoloader::libLoader');
+
 
 $myclass = new myclass();
 
