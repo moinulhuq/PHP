@@ -1,5 +1,12 @@
 <?php
 
+/*
+|-- path
+|   `-- to
+|       |-- Bootstrap
+|       |   `-- myclass.php
+*/
+
 /* using an anonymous function as of PHP 5.3.0 */
 
 spl_autoload_register(
