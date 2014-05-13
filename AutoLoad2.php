@@ -1,5 +1,13 @@
 <?php
- 
+
+/*
+|-- path
+|   `-- to
+|       |-- class
+|       |   `-- myclass.php
+*/
+
+
 /* You can use this if all your files are located in a single directory */
 
 set_include_path(get_include_path().PATH_SEPARATOR.realpath('path/to/class'));
