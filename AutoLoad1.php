@@ -3,7 +3,7 @@
 /*
 |-- path
 |   `-- to
-|       |-- Bootstrap
+|       |-- class
 |       |   `-- myclass.php
 */
 
