@@ -10,10 +10,10 @@ class myclass{
 		echo "Hi I am Public Function";
 	}
 	private function PriFunc(){
-		echo "Hi I am Public Function";
+		echo "Hi I am Private Function";
 	}
 	protected function ProFunc(){
-		echo "Hi I am Public Function";
+		echo "Hi I am Protected Function";
 	}	
 
 }
