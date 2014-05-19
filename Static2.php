@@ -1,6 +1,6 @@
 <?php
 
-/* A non-static member belongs to an instance where as you don't have an instance In a static context. That's why you can't access a non-static member without explicitly mentioning an object reference. */
+/* A non-static member belongs to an instance where as you don't have an instance in a static context. That's why you can't access a non-static member without explicitly mentioning an object reference. */
 
 class myclass{
 
@@ -79,6 +79,6 @@ $Objmyclass->PubStaFunc4(); // 'I am static function'
 /* In fact, you can access a non-static member in a static context by declarin the object reference explicitly. */
 
 $Objmyclass->PubStaFunc5($Objmyclass); // 100
-$Objmyclass->PubStaFunc6($Objmyclass); // I am public function
+$Objmyclass->PubStaFunc6(new myclass()); // I am public function
 
 ?>
