@@ -1,5 +1,4 @@
 <?php
-
 /*
 What is Inheritance?
 
@@ -13,9 +12,7 @@ Can easily use data hiding.
 
 Disadvantage:
 Two classes are tightly coupled i.e. depend each other.
-If a method is deleted from parent class we need to re-factor.
-
-*/
+If a method is deleted from parent class we need to re-factor. */
 
 /* When you extend a class, the subclass inherits all of the public and protected methods from the parent class. */
 
