@@ -1,5 +1,22 @@
 <?php
 
+/*
+What is Inheritance?
+
+Ability to create a new class from an existing class by extending it. All the functionality of parent class will available at child class.
+
+Advantage:
+Can minimize the amount of duplicate code.
+Can get facility to reuse code without rewriting.
+Can extend the code without effecting other.
+Can easily use data hiding.
+
+Disadvantage:
+Two classes are tightly coupled i.e. depend each other.
+If a method is deleted from parent class we need to re-factor.
+
+*/
+
 /* When you extend a class, the subclass inherits all of the public and protected methods from the parent class. */
 
 /* If a class extends another the parent must be declared before the child class. This rule applies to classes that inherit other classes and interfaces.*/
