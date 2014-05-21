@@ -2,6 +2,8 @@
 
 /* PHP 5 introduces abstract classes and methods. */
 
+/* You can force a class strictly an inheritable class by using "abstract" keyword. Any attempt to instantiate that class cause fatal error. */
+
 /* Any class that contains at least one abstract method must also be abstract. */
 
 abstract class Db  
