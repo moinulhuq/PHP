@@ -1,0 +1,35 @@
+<?php
+
+/* When you extend a class, the subclass inherits all of the public and protected methods from the parent class. */
+
+/* If a class extends another the parent must be declared before the child class. This rule applies to classes that inherit other classes and interfaces.*/
+
+class ParentClass{
+	
+	public function PrintA(){ echo "ParentClass: PrintA <br>"; }
+	public function PrintB(){ echo "ParentClass: PrintB <br>"; }
+}
+
+class ChildClass extends ParentClass{
+
+/* Unless a class overrides those methods, they will retain their original functionality.*/
+/* This is useful for defining and abstracting functionality. */
+
+	public function PrintA(){ echo "ChildClass: PrintA <br>"; }	
+
+/* No need to reimplement all the shared functionality other than that need to implement additional functionality.*/	
+
+	public function PrintC(){ echo "ChildClass: PrintC <br>"; }	
+}
+
+$ObjParentClass = new ParentClass();
+
+$ObjParentClass->PrintA(); // ParentClass: PrintA
+$ObjParentClass->PrintB(); // ParentClass: PrintB 
+
+$ObjChildClass = new ChildClass();
+
+$ObjChildClass->PrintA(); // ChildClass: PrintA
+$ObjChildClass->PrintB(); // ParentClass: PrintB 
+$ObjChildClass->PrintC(); // ParentClass: PrintC 
+?>
