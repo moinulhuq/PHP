@@ -2,6 +2,15 @@
 
 /*
 Encapsulation is a way how you define your properties and methods can be used.  It's the idea of hiding information. Suppose you have an Animal Class, and it has a function called getName() then you've created a subclass of Animal called Cow class. Now, when we used the function getName() it will return the name of the animal which is Cow.
+
+Advantage of Encapsulation
+---------------------------
+
+Can restrict your data i.e. who can access what
+Easy to maintain and change your code.
+Encapsulation reduce coupling and increase cohesion
+Increases usability
+
 */
 
 class Animal {
