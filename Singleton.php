@@ -1,5 +1,7 @@
 <?php
 
+/* Singleton is a design pattern that restricts instantiation of a class to one object. */
+
 /*...........Normal Class.......................*/
 
 class myclass{
