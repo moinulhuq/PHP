@@ -18,7 +18,7 @@ class myclass implements myinterface{
 	
 	private $Name;
 		
-/* All methods in the interface must be implemented within a class; failure to do so will result in a fatal error. */
+/* All methods in the interface must be implemented within a class; failure to do so will result in a fatal error. i.e. if you only define the body of setName($Name) and forget to define getName() then it will cause error (Fatal error: Class myclass contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (myinterface::getName))  */
 
 	public function setName($Name){
 		$this->Name = $Name;
