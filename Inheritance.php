@@ -45,5 +45,5 @@ $ObjChildClass = new ChildClass();
 
 $ObjChildClass->PrintA(); // ChildClass: PrintA
 $ObjChildClass->PrintB(); // ParentClass: PrintB 
-$ObjChildClass->PrintC(); // ParentClass: PrintC 
+$ObjChildClass->PrintC(); // ChildClass: PrintC 
 ?>
