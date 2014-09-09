@@ -1,5 +1,7 @@
 <?php
+
 class myclass{
+
 /* When assigning an already created instance of a class to a new variable, the new variable will access the same instance as the object that was assigned. This behaviour is the same when passing instances to a function. */
 
 	var $x=0;
